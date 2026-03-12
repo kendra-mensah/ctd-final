@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Local environment files
+.env
+*.local
+
+# Build artifacts
+dist/
+build/
+
+# Yarn artifacts
+yarn.lock
+.pnp.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.idea/
+.vscode/
