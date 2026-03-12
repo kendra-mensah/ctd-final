@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 export default function AddEntry({ onAdd, onUpdate, editingEntry, onCancel }) {
   const [content, setContent] = useState("");
   const [mood, setMood] = useState("happy");
-  const [date, setDate] = useState(new Date().toISOString().slice(0, 10));
+  const [date, setDate] = useState(new Date().toISOString().slice(0, 9));
 
   // Populate form when editing
   useEffect(() => {
